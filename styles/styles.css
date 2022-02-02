@@ -1,0 +1,272 @@
+@font-face {
+  font-family: "rubik";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/rubik/rubik-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "rubik";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/rubik/rubik-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+/* Raleway */
+@font-face {
+  font-family: "raleway";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/raleway/raleway-800.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "rubik", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.header-background {
+  background-color: #ffe17f;
+}
+
+.search {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.navigation-link {
+  line-height: 30px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.category {
+  font-family: "raleway", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  line-height: 21px;
+}
+
+.gadget-container {
+  color: #444444;
+  line-height: 30px;
+}
+
+/* Title */
+.title {
+  font-family: "raleway", sans-serif;
+  font-size: 50px;
+  color: #000000;
+  line-height: 50px;
+}
+
+/* Button */
+.button {
+  font-family: "raleway", sans-serif;
+  line-height: 21px;
+  letter-spacing: 0.2em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+}
+
+/* Gadget-list */
+.gadget-characteristic {
+  font-size: 16px;
+}
+
+.gadget-characteristic b {
+  font-size: 36px;
+  font-weight: 400;
+  color: #000000;
+}
+
+/* Catalog-list */
+.catalog-link {
+  font-family: "raleway", sans-serif;
+  text-decoration: none;
+  color: #000000;
+}
+
+.catalog-card-image {
+  background-color: #ffe17f;
+}
+
+/* Option */
+.option {
+  background-color: #f0f0f0;
+}
+
+.option-description {
+  color: #444444;
+  line-height: 30px;
+}
+
+/* Delivery */
+.delivery-button {
+  font-family: "raleway", sans-serif;
+  background-color: #f0f0f0;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+}
+
+.delivery-image {
+  background-color: #ffe17f;
+}
+
+/* About */
+.about {
+  line-height: 20px;
+}
+
+.about-description {
+  line-height: 30px;
+  color: #444444;
+}
+
+.about-item {
+  font-weight: 700;
+}
+
+/* Contacts */
+.contacts {
+  line-height: 30px;
+  color: #444444;
+}
+
+.contacts-description {
+  line-height: 30px;
+}
+
+.contacts-subtitle {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.contacts-phone {
+  color: #444444;
+  font-style: normal;
+}
+
+/* Subscribe */
+.subscribe {
+  background-color: #f0f0f0;
+  line-height: 30px;
+  color: #444444;
+}
+
+/* Footer */
+.page-footer {
+  background-color: #444444;
+  color: #ffffff;
+}
+
+.button-footer-option {
+  color: #ffffff;
+}
+
+.footer-address-text {
+  font-size: 16px;
+  font-style: normal;
+  line-height: 19px;
+}
+
+.footer-contacts-phone {
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.button-social {
+  color: #ffffff;
+}
+
+.inner-header-title {
+  font-family: "raleway", sans-serif;
+  font-size: 50px;
+  color: #000000;
+  line-height: 50px;
+}
+
+/* Breadcrumbs-catalog */
+.breadcrumbs {
+  color: #000000;
+}
+
+.breadcrumbs-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Filter */
+.filter-container {
+  background-color: #f0f0f0;
+}
+
+.filter-color-title {
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.control {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.sorting-container {
+  background-color: #f0f0f0;
+}
+
+.select-control {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+/* Product */
+.product-card-link {
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 20px;
+  color: #000000;
+}
+
+.product-card-price {
+  line-height: 21px;
+  font-weight: 400;
+  text-align: right;
+  color: #444444;
+}
+
+.button-more {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+/* Pagination-product */
+.pagination {
+  background-color: #ebebeb;
+}
+
+.pagination-link {
+  font-size: 16px;
+  line-height: 20px;
+  color: #444444;
+  text-decoration: none;
+}
+
+.pagination-switch {
+  font-family: "raleway", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.2em;
+  color: #000000;
+  text-transform: uppercase;
+  text-decoration: none;
+}
