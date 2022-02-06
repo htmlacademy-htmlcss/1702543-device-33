@@ -23,11 +23,17 @@
   font-display: swap;
 }
 
+:root {
+  --color-title: #000000;
+  --color-paragraph: #444444;
+  --color-footer: #ffffff;
+}
+
 body {
   font-family: "rubik", sans-serif;
   font-size: 18px;
   line-height: 24px;
-  color: #000000;
+  color: var(--color-title);
   background-color: #ffffff;
 }
 
@@ -42,7 +48,7 @@ body {
 
 .navigation-link {
   line-height: 30px;
-  color: #000000;
+  color: var(--color-title);
   text-decoration: none;
 }
 
@@ -54,7 +60,7 @@ body {
 }
 
 .gadget-container {
-  color: #444444;
+  color: var(--color-paragraph);
   line-height: 30px;
 }
 
@@ -62,7 +68,7 @@ body {
 .title {
   font-family: "raleway", sans-serif;
   font-size: 50px;
-  color: #000000;
+  color: var(--color-title);
   line-height: 50px;
 }
 
@@ -73,7 +79,7 @@ body {
   letter-spacing: 0.2em;
   text-align: center;
   text-transform: uppercase;
-  color: #000000;
+  color: var(--color-title);
   text-decoration: none;
 }
 
@@ -85,14 +91,14 @@ body {
 .gadget-characteristic b {
   font-size: 36px;
   font-weight: 400;
-  color: #000000;
+  color: var(--color-title);
 }
 
 /* Catalog-list */
 .catalog-link {
   font-family: "raleway", sans-serif;
   text-decoration: none;
-  color: #000000;
+  color: var(--color-title);
 }
 
 .catalog-card-image {
@@ -105,7 +111,7 @@ body {
 }
 
 .option-description {
-  color: #444444;
+  color: var(--color-paragraph);
   line-height: 30px;
 }
 
@@ -129,7 +135,7 @@ body {
 
 .about-description {
   line-height: 30px;
-  color: #444444;
+  color: var(--color-paragraph);
 }
 
 .about-item {
@@ -139,7 +145,7 @@ body {
 /* Contacts */
 .contacts {
   line-height: 30px;
-  color: #444444;
+  color: var(--color-paragraph);
 }
 
 .contacts-description {
@@ -152,7 +158,7 @@ body {
 }
 
 .contacts-phone {
-  color: #444444;
+  color: var(--color-paragraph);
   font-style: normal;
 }
 
@@ -160,17 +166,17 @@ body {
 .subscribe {
   background-color: #f0f0f0;
   line-height: 30px;
-  color: #444444;
+  color: var(--color-paragraph);
 }
 
 /* Footer */
 .page-footer {
   background-color: #444444;
-  color: #ffffff;
+  color: var(--color-footer);
 }
 
 .button-footer-option {
-  color: #ffffff;
+  color: var(--color-footer);
 }
 
 .footer-address-text {
@@ -181,23 +187,23 @@ body {
 
 .footer-contacts-phone {
   line-height: 20px;
-  color: #ffffff;
+  color: var(--color-footer);
 }
 
 .button-social {
-  color: #ffffff;
+  color: var(--color-footer);
 }
 
 .inner-header-title {
   font-family: "raleway", sans-serif;
   font-size: 50px;
-  color: #000000;
+  color: var(--color-title);
   line-height: 50px;
 }
 
 /* Breadcrumbs-catalog */
 .breadcrumbs {
-  color: #000000;
+  color: var(--color-title);
 }
 
 .breadcrumbs-link {
@@ -234,14 +240,14 @@ body {
   text-decoration: none;
   font-weight: 700;
   line-height: 20px;
-  color: #000000;
+  color: var(--color-title);
 }
 
 .product-card-price {
   line-height: 21px;
   font-weight: 400;
   text-align: right;
-  color: #444444;
+  color: var(--color-paragraph);
 }
 
 .button-more {
@@ -257,7 +263,7 @@ body {
 .pagination-link {
   font-size: 16px;
   line-height: 20px;
-  color: #444444;
+  color: var(--color-paragraph);
   text-decoration: none;
 }
 
@@ -266,7 +272,7 @@ body {
   font-size: 18px;
   line-height: 21px;
   letter-spacing: 0.2em;
-  color: #000000;
+  color: var(--color-title);
   text-transform: uppercase;
   text-decoration: none;
 }
