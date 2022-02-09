@@ -1,0 +1,278 @@
+@font-face {
+  font-family: "rubik";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/rubik/rubik-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "rubik";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/rubik/rubik-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+/* Raleway */
+@font-face {
+  font-family: "raleway";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/raleway/raleway-800.woff2") format("woff2");
+  font-display: swap;
+}
+
+:root {
+  --color-title: #000000;
+  --color-paragraph: #444444;
+  --color-footer: #ffffff;
+}
+
+body {
+  font-family: "rubik", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--color-title);
+  background-color: #ffffff;
+}
+
+.header-background {
+  background-color: #ffe17f;
+}
+
+.search {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.navigation-link {
+  line-height: 30px;
+  color: var(--color-title);
+  text-decoration: none;
+}
+
+.category {
+  font-family: "raleway", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  line-height: 21px;
+}
+
+.gadget-container {
+  color: var(--color-paragraph);
+  line-height: 30px;
+}
+
+/* Title */
+.title {
+  font-family: "raleway", sans-serif;
+  font-size: 50px;
+  color: var(--color-title);
+  line-height: 50px;
+}
+
+/* Button */
+.button {
+  font-family: "raleway", sans-serif;
+  line-height: 21px;
+  letter-spacing: 0.2em;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--color-title);
+  text-decoration: none;
+}
+
+/* Gadget-list */
+.gadget-characteristic {
+  font-size: 16px;
+}
+
+.gadget-characteristic b {
+  font-size: 36px;
+  font-weight: 400;
+  color: var(--color-title);
+}
+
+/* Catalog-list */
+.catalog-link {
+  font-family: "raleway", sans-serif;
+  text-decoration: none;
+  color: var(--color-title);
+}
+
+.catalog-card-image {
+  background-color: #ffe17f;
+}
+
+/* Option */
+.option {
+  background-color: #f0f0f0;
+}
+
+.option-description {
+  color: var(--color-paragraph);
+  line-height: 30px;
+}
+
+/* Delivery */
+.delivery-button {
+  font-family: "raleway", sans-serif;
+  background-color: #f0f0f0;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+}
+
+.delivery-image {
+  background-color: #ffe17f;
+}
+
+/* About */
+.about {
+  line-height: 20px;
+}
+
+.about-description {
+  line-height: 30px;
+  color: var(--color-paragraph);
+}
+
+.about-item {
+  font-weight: 700;
+}
+
+/* Contacts */
+.contacts {
+  line-height: 30px;
+  color: var(--color-paragraph);
+}
+
+.contacts-description {
+  line-height: 30px;
+}
+
+.contacts-subtitle {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.contacts-phone {
+  color: var(--color-paragraph);
+  font-style: normal;
+}
+
+/* Subscribe */
+.subscribe {
+  background-color: #f0f0f0;
+  line-height: 30px;
+  color: var(--color-paragraph);
+}
+
+/* Footer */
+.page-footer {
+  background-color: #444444;
+  color: var(--color-footer);
+}
+
+.button-footer-option {
+  color: var(--color-footer);
+}
+
+.footer-address-text {
+  font-size: 16px;
+  font-style: normal;
+  line-height: 19px;
+}
+
+.footer-contacts-phone {
+  line-height: 20px;
+  color: var(--color-footer);
+}
+
+.button-social {
+  color: var(--color-footer);
+}
+
+.inner-header-title {
+  font-family: "raleway", sans-serif;
+  font-size: 50px;
+  color: var(--color-title);
+  line-height: 50px;
+}
+
+/* Breadcrumbs-catalog */
+.breadcrumbs {
+  color: var(--color-title);
+}
+
+.breadcrumbs-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Filter */
+.filter-container {
+  background-color: #f0f0f0;
+}
+
+.filter-color-title {
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.control {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.sorting-container {
+  background-color: #f0f0f0;
+}
+
+.select-control {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+/* Product */
+.product-card-link {
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 20px;
+  color: var(--color-title);
+}
+
+.product-card-price {
+  line-height: 21px;
+  font-weight: 400;
+  text-align: right;
+  color: var(--color-paragraph);
+}
+
+.button-more {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+/* Pagination-product */
+.pagination {
+  background-color: #ebebeb;
+}
+
+.pagination-link {
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--color-paragraph);
+  text-decoration: none;
+}
+
+.pagination-switch {
+  font-family: "raleway", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.2em;
+  color: var(--color-title);
+  text-transform: uppercase;
+  text-decoration: none;
+}
