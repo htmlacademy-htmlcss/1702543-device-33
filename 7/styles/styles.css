@@ -2433,14 +2433,18 @@ input::-webkit-inner-spin-button {
 
 .select-control {
   position: relative;
-  width: 159px;
+  width: 149px;
   margin: 0 197px 0 189px;
   font-family: "rubik", sans-serif;
   font-size: 18px;
   line-height: 30px;
-  cursor: pointer;
+  background-image: url('../images/select-arrow.svg');
+  background-repeat: no-repeat;
+  background-position: right;
   background-color: var(--background-onyx);
   border: 0;
+  -webkit-appearance: none;
+  cursor: pointer;
 }
 
 .select-control:hover {
